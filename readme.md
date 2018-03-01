@@ -1,17 +1,9 @@
-# awesome-ghost
-快速创建Ghost博客系统。
+# ghost-1.8.1-docker:0.1
+感谢awesome-ghost项目及其作者
+本项目在此基础上进行了封装并将持续优化
 
-# 使用
-- [ghost](https://github.com/imlooke/awesome-ghost/tree/master/ghost)配置
-- [nginx](https://github.com/imlooke/awesome-ghost/tree/master/nginx)配置
-- [mysql](https://dashboard.daocloud.io/packages/fa51c1d6-9dc2-49d9-91ac-4bbfc24a1bda)配置
-- 修改`docker-compose.yml`配置项
-- `docker-compose up -d --build`
+# 目的
+本项目在于提供简单的一键式的ghost项目部署,在docker环境中会集成nginx，mysql，ghost。如果已经安装了nginx mysql可以会冗余。
 
-# 持续更新
-- 更多自定义设置
-- `ghost`更新问题
-
----
-
-**有兴趣就star and join with me😉**
+# 计划
+目前正在进行测试 会在近期发布
